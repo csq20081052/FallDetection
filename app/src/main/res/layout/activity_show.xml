@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hii"
+    tools:context="com.example.gagandeepchugh.falldetection.show">
+
+
+    <ImageButton
+        android:id="@+id/bt1"
+        android:layout_width="347dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/asds"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="210dp"
+        android:layout_above="@+id/bt2"
+        android:layout_alignRight="@+id/bt2"
+        android:layout_alignEnd="@+id/bt2"
+        android:layout_marginBottom="15dp" />
+
+    <ImageButton
+        android:id="@+id/bt2"
+        android:layout_width="349dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/ssd"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="336dp"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/bt3"
+        android:layout_alignLeft="@+id/bt3"
+        android:layout_alignStart="@+id/bt3" />
+
+    <ImageButton
+        android:id="@+id/bt3"
+        android:layout_width="344dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/asd"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="469dp"
+        android:layout_marginBottom="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

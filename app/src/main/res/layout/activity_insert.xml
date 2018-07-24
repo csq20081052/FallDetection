@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sd"
+    tools:context="com.example.gagandeepchugh.falldetection.insert">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="  Please Enter The"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_above="@+id/textView10"
+        android:layout_alignLeft="@+id/ed2"
+        android:layout_alignStart="@+id/ed2" />
+
+    <ImageButton
+        android:id="@+id/butn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/sadad"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Phone No.:-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp"
+        android:layout_below="@+id/textView9"
+        android:layout_toLeftOf="@+id/ed1"
+        android:layout_toStartOf="@+id/ed1" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="226dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details:-"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>
